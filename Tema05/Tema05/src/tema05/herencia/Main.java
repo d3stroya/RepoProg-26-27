@@ -23,31 +23,43 @@ public class Main {
         System.out.println(enemigo);
         
         
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         // 2. Probamos sus métodos
         // [!] Todos los personajes tienen el método atacar        
-        System.out.println("\nPROBANDO MÉTODOS...");
-        personaje.atacar();
-        jugador.atacar();
-        enemigo.atacar();
+//        System.out.println("\nPROBANDO MÉTODOS...");
+//        personaje.atacar();
+//        jugador.atacar();
+//        enemigo.atacar();
         
         // [!] Solo los jugadores tienen el método mejorarHabilidad
-        jugador.mejorarHabilidad("combate");
+//        jugador.mejorarHabilidad("combate");
 //        personaje.mejorarHabilidad("combate");  // Personaje no tiene el método mejorarHabilidad
 //        enemigo.mejorarHabilidad("combate");    // Enemigo no tiene el método mejorarHabilidad
 
         // [!] Solo los enemigos tienen el método crearSoldados
-        enemigo.crearSoldados();
+//        enemigo.crearSoldados();
 //        personaje.crearSoldados();
 //        jugador.crearSoldados();
 
 
         // 3. Imprimimos estados
         System.out.println("\nIMPRIMIENDO ESTADOS...");
-        System.out.println("Habilidad del jugador: " + jugador.getHabilidad());
+        System.out.println("Habilidad del jugador: " + jugador.getHabilidad());       
         System.out.println("Vida del jugador: " + jugador.getVida());
-        
+//        
         System.out.println("Vida del personaje: " + personaje.getVida());
-        
+//        
         System.out.println("Vida del enemigo: " + enemigo.getVida());
         jugador.atacar();
     }    

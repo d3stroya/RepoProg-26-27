@@ -6,7 +6,7 @@ package tema05.herencia;
  */
 public class Jugador extends Personaje {
     // ATRIBUTOS
-    public String habilidad;
+    private String habilidad;
 
 
     // CONSTRUCTORES

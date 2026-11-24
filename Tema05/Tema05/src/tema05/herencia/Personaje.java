@@ -10,7 +10,7 @@ public class Personaje {
 
     // CONSTRUCTORES
     public Personaje() {
-        this.vida = 100;        
+        this.vida = 100;      
     }
     
     public Personaje(int vida) {

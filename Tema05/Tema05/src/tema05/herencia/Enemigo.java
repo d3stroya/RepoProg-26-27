@@ -38,6 +38,6 @@ public class Enemigo extends Personaje {
     // TO STRING
     @Override
     public String toString() {
-        return "El ENEMIGO tiene " + getVida() + "% de vida y su arma es: " + this.arma;
+        return super.toString() + "y es un ENEMIGO con arma: " + this.arma;
     }
 }
